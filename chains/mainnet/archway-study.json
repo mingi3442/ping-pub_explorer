@@ -1,0 +1,30 @@
+{
+  "chain_name": "ArchwayTestnet",
+  "api": [
+    {
+      "address": "http://localhost:1317",
+      "provider": "Min"
+    }
+  ],
+  "rpc": [
+    {
+      "address": "http://localhost:26657",
+      "provider": "Min"
+    }
+  ],
+  "sdk_version": "0.42.6",
+  "coin_type": "118",
+  "min_tx_fee": "800",
+  "assets": [
+    {
+      "base": "aconst",
+      "symbol": "CONST",
+      "exponent": "18",
+      "coingecko_id": "archway",
+      "logo": "https://testnet.archway.explorers.guru/chains/archway_token.png"
+    }
+  ],
+  "addr_prefix": "archway",
+  "theme_color": "#ce4747",
+  "logo": "https://testnet.archway.explorers.guru/chains/archway_token.png"
+}
